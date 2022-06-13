@@ -5,6 +5,6 @@ Notes and Assignments from the Coursera Certificate course of Data Analysis
 ### Course 3
 ### Course 4
 ### Course 5
-### COurse 6
-### COurse 7
-### COurse 8
+### Course 6
+### Course 7
+### Course 8
