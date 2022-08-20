@@ -8,6 +8,8 @@ Hello there. We all have faced situations where we remembered a part of the word
 1. **%**: Represents any sequence of 0 or more characters
 2. **_**: Used to replace a single character
 
+Let's see this with an example of Student Table.
+
 **Student Table:**
 
 ![Screenshot 2022-08-20 123524.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1660979142492/zI2AMkqve.jpg align="left")
