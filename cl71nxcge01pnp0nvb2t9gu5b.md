@@ -36,7 +36,7 @@ So, we use escape character backslash **'\'**.
 ```
 Q. RETRIEVE ALL THE STUDENT WHOSE MARKS ARE HAVE '78%' AND EMAIL HAVE 'ab' 
 FOLLOWED BY A SINGLE CHARACTER AND HAVE '@' IN IT.
-A. SELECT Name FROM Student WHERE Marks LIKE '90\%' AND EMAIL LIKE 'abc\_%@%;
+A. SELECT Name FROM Student WHERE Marks LIKE '78\%' AND EMAIL LIKE 'abc\_%@%;
 
 ``` 
 \ is backslash used as an escape character to avoid '%' being misinterpreted as wild character and a part of data. 
