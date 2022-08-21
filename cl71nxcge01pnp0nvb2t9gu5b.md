@@ -1,6 +1,8 @@
 ## Pattern Matching In Sql
 
-Hello there. We all have faced situations where we remembered a part of the word or line but not entirely. This happens with analysts all the time and hence SQL has the perfect solution to this called **Pattern Matching** and today we are going to dive through it. So, let's begin!!!
+Hello there. 👋
+
+We all have faced situations where we remembered a part of the word or line but not entirely. This happens with analysts all the time and hence SQL has the perfect solution to this called **Pattern Matching** and today we are going to dive through it. So, let's begin!!!
 
 - **LIKE:** It is used to search for a specific pattern in a column.
 - **NOT LIKE:** It is used to search if the specific pattern is not matched in column.
