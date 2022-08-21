@@ -49,3 +49,7 @@ Thanks for reading! ❤️
 
 Also connect with me on my socials:
 [LinkedIn](https://www.linkedin.com/in/sourajita-dewasi-52b3b4193/), [Twitter](https://twitter.com/SourajitaD) or [Github](http://github.com/SourajitaDewasi)!
+
+References Used:
+1.  [W3 Schhols](https://www.w3schools.com/sql/sql_like.asp)
+2. [Ravindrababu Ravula](https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ)
