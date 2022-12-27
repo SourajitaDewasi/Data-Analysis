@@ -21,7 +21,7 @@ Switching is done at the Network layer; this method is used to find the best pos
 
 This switching type is not done on the network layer but on the physical layer. It is currently an obsolete method. Circuit Switching was used in telephone networks in the 1980s.
 
-### Working of the Circuit Switching
+### Working on the Circuit Switching
 
 ![A connectin with B through manual physical wire connection with circuit switching](https://cdn.hashnode.com/res/hashnode/image/upload/v1672123914833/57a0a79c-ff1a-4afb-9966-2290533ba6d7.png align="left")
 
@@ -43,7 +43,7 @@ This switching type is not done on the network layer but on the physical layer. 
 
 ### Disadvantages of Circuit Switching
 
-1. Multiple people are required as Telephone Operators or Data Operators to connect wires manually daily, making it costly.
+1. Multiple people are required as Telephone or Data Operators to connect wires manually daily, making it costly.
     
 2. The messages are interceptable at the Telephone Exchange points.
     
@@ -68,7 +68,7 @@ Also known as store and forward network, this switching employs multiplexers and
 
 This method is based on pipelining, introduced by Henry Ford to reduce the time to manufacture a car from 6 to 7 months to just 21 days.
 
-For example: Let's say that a team takes 1 day to complete their tasks, and it requires 4 days to build a car completely. For a single car, the pipelining doesn't make a difference:
+**For example: Let's say that a team takes 1 day to complete their tasks and 4 days to build a car. For a single car, the pipelining doesn't make a difference:**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672126550526/a802badc-038f-47dd-87cb-eb1f51331943.png align="center")
 
@@ -76,7 +76,7 @@ For example: Let's say that a team takes 1 day to complete their tasks, and it r
 
 *And 100 cars with pipelining = 4 (to build the first car)+ 99x1 = 103 days*
 
-Thus with pipelining the number of average days come closer to one days, bulkier the order gets. Getting an example to explain when and at which parameters does packetezation get advantageous and where it doesn't.
+Thus with pipelining, the number of average days comes closer to one day, bulkier the order gets. To address it as an example to explain when and at which parameters packetization is advantageous and where it isn't.
 
 `Let Data that needs to be transmitted is 1000 bytes and Bandwidth given is 1 Mbps. The header size given is 100 bytes. Total no. of switches between the receiver and sender is 2.`
 
@@ -91,8 +91,6 @@ Thus with pipelining the number of average days come closer to one days, bulkier
 `Thus to reach to the receiver`
 
 `= No. of switches xTransmission Time = 3 x 1.1 ms = 3.3 ms`
-
----
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672151900266/725f7781-cbaf-4534-9ab9-c92fc0036acd.png align="center")
 
@@ -122,7 +120,7 @@ Thus with pipelining the number of average days come closer to one days, bulkier
 
 In this case, there is no wastage of waiting time for routers for 1000 bytes altogether. It can transmit receiving 300 bytes.
 
-We can now say let's put the data together in more smaller packets.
+We can now say let's put the data together in smaller packets.
 
 `Now, let's say the packets are divided into smaller packets = 10.`
 
@@ -146,24 +144,24 @@ We can now say let's put the data together in more smaller packets.
 
 `Total time taken = (0.6 + 1.8) ms = 2.4 ms`
 
-Initially the time reduced by picketing the big packet but now it increased. There is a threshold on the size of small packets. The header size should not be equal to or dominate the packet size. In that case, the time taken to packetized and send actually increases.
+Initially, the time was reduced by packeting the big packet, but now it increased. There is a threshold on the size of small packets. The header size should not be equal to or dominate the packet size. In that case, the time is taken to packetize and send increases.
 
 > In Internet, this packet size = 2^16 bytes.
 
 ### Advantages of Packet Switching
 
-1. Setup time and Teardown time for the link is not required.
+1. Setup time and Teardown time for the link are not required.
     
-2. No manual intervention. More cost effective. The entire thing is dynamically run in the store and forward network.
+2. No manual intervention. More cost-effective. The entire thing is dynamically run in the store and forward network.
     
 
 ### Disadvantages of Packet Switching
 
-1. The data doesn't go in-order and hence in their Network Layer headers, the packet number is marked as Sequence Numbers.
+1. The data doesn't go in order; hence, in their Network Layer headers, the packet number is marked as Sequence Numbers.
     
-2. Headers are necessary because the entire track is not laid down to transmit that message. The track is instead found while the packet is sent from hops to hops.
+2. Headers are necessary because the entire track is not laid down to transmit that message. The path is instead found while the packet is sent from hop to hop.
     
 
-There are two types of Packet Switching which we will discuss in the next blog. Till then, thanks for reading! ❤️
+We will discuss two types of Packet Switching in the next blog. Till then, thanks for reading! ❤️
 
-If you are also into Computer Networks, let me know in the comments. Also, connect with me on my social: [LinkedIn](https://www.linkedin.com/in/sourajita-dewasi-52b3b4193/), [Twitter](https://twitter.com/SourajitaD) or [Github](https://github.com/SourajitaDewasi)!
+If you are also into Computer Networks, let me know in the comments. Also, connect with me on my social: [LinkedIn](https://www.linkedin.com/in/sourajita-dewasi-52b3b4193/), [Twitter](https://twitter.com/SourajitaD) or GitHub!
