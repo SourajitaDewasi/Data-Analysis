@@ -20,13 +20,13 @@ Clustering is the process of forming clusters or groups of data points, but that
 
 There are four popular types of Clustering:
 
-1.  *Centroid-based Clustering: Organizes data into non-hierarchial clusters and is very sensitive to initial conditions and outliers.* ***K-Means*** *is the most popular centroid-based clustering technique.*
+1. *Centroid-based Clustering: Organizes data into non-hierarchial clusters and is very sensitive to initial conditions and outliers.* ***K-Means*** *is the most popular centroid-based clustering technique.*
     
-2.  *Density-based Clustering: This clustering algorithm connects areas of high example density into clusters. It allows for arbitrarily shaped distributions as long as dense areas can be connected. It is disadvantaged for data of varying density and high dimensions.*
+2. *Density-based Clustering: This clustering algorithm connects areas of high example density into clusters. It allows for arbitrarily shaped distributions as long as dense areas can be connected. It is disadvantaged for data of varying density and high dimensions.*
     
-3.  *Distribution-based Clustering: This clustering method assumes data is composed of distributions such as Gaussian Distributions. This method is disadvantaged when the data distribution type is unknown; with the reduced probability of belonging to a distribution, the distance from the distribution's centre increases.*
+3. *Distribution-based Clustering: This clustering method assumes data is composed of distributions such as Gaussian Distributions. This method is disadvantaged when the data distribution type is unknown; with the reduced probability of belonging to a distribution, the distance from the distribution's centre increases.*
     
-4.  *Hierarchial-based Clustering: It creates a tree of clusters and is well-suited to taxonomical or hierarchical data.* By pruning the tree at the proper level, one can select any number of clusters. 
+4. *Hierarchial-based Clustering: It creates a tree of clusters and is well-suited to taxonomical or hierarchical data.* By pruning the tree at the proper level, one can select any number of clusters.
     
 
 ### EXAMPLES AND ADVANTAGES OF CLUSTERING
@@ -41,10 +41,10 @@ Clustering is an objective function. Any two points within a cluster show a simi
 
 Thanks for reading! ❤️
 
-If you are studying the same course, let me know in the comments. Also, connect with me on my social: [LinkedIn](https://www.linkedin.com/in/sourajita-dewasi-52b3b4193/), [Twitter](https://twitter.com/SourajitaD) or [Github](https://github.com/SourajitaDewasi)!
+If you want to share something, let me know in the comments. Also, connect with me on my social: [LinkedIn](https://www.linkedin.com/in/sourajita-dewasi-52b3b4193/), [Twitter](https://twitter.com/SourajitaD) or [Github](https://github.com/SourajitaDewasi)!
 
 **REFERENCES:**
 
-1.  Correlated features and classification accuracy - Stack Overflow. [https://stackoverflow.com/questions/14813884/correlated-features-and-classification-accuracy](https://stackoverflow.com/questions/14813884/correlated-features-and-classification-accuracy)
+1. Correlated features and classification accuracy - Stack Overflow. [https://stackoverflow.com/questions/14813884/correlated-features-and-classification-accuracy](https://stackoverflow.com/questions/14813884/correlated-features-and-classification-accuracy)
     
-2.  K-Means - TowardsMachineLearning. [https://towardsmachinelearning.org/k-means/](https://towardsmachinelearning.org/k-means/)
+2. K-Means - TowardsMachineLearning. [https://towardsmachinelearning.org/k-means/](https://towardsmachinelearning.org/k-means/)
